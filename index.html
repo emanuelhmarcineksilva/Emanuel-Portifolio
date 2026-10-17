@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Emanuel Henrique Marcinek Silva, estudante de Engenharia de Software e desenvolvedor web."
+    />
+    <meta name="theme-color" content="#202127" />
+    <title>Emanuel Henrique | Desenvolvedor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="#inicio" aria-label="Emanuel — página inicial">
+          <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span>Emanuel</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-navigation" id="site-navigation" aria-label="Navegação principal">
+          <a class="nav-link active" href="#inicio">início</a>
+          <a class="nav-link" href="#sobre">sobre mim</a>
+          <a class="nav-link" href="#competencias">competências</a>
+          <a class="nav-link" href="#conquistas">conquistas</a>
+          <a class="nav-link" href="#contato">contato</a>
+        </nav>
+        <span class="header-language" aria-label="Idioma: português">PT <span>⌄</span></span>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="status-dot"></span> Estudante de Engenharia de Software</p>
+          <h1 id="hero-title">
+            Olá, eu sou o Emanuel.<br />
+            <span>Desenvolvo para a web.</span>
+          </h1>
+          <p class="hero-description">
+            Transformo ideias em experiências digitais com curiosidade, criatividade e código.
+            Atualmente estou no 4º período de Engenharia de Software na PUCPR.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#sobre">Conheça minha trajetória <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Redes sociais">
+            <a href="https://github.com/emanuelhmarcineksilva" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <span class="social-separator" aria-hidden="true">/</span>
+            <a href="https://www.linkedin.com/in/emanuel-henrique-m-silva/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-art" data-reveal aria-label="Ilustração com as iniciais EH e código">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-grid" aria-hidden="true"></div>
+          <span class="art-bracket bracket-one" aria-hidden="true"></span>
+          <span class="art-bracket bracket-two" aria-hidden="true"></span>
+          <div class="monogram-card">
+            <span class="monogram-top">PORTFÓLIO / 2025</span>
+            <span class="monogram">E<span>H</span></span>
+            <span class="monogram-caption">código com intenção<span class="cursor">_</span></span>
+          </div>
+          <div class="floating-code code-top" aria-hidden="true"><span>const</span> developer = "Emanuel";</div>
+          <div class="floating-code code-bottom" aria-hidden="true"><span>&lt;idea /&gt;</span> → realidade</div>
+          <span class="art-cross cross-one" aria-hidden="true">+</span>
+          <span class="art-cross cross-two" aria-hidden="true">+</span>
+        </div>
+      </section>
+
+      <section class="quote section-shell" aria-label="Minha motivação" data-reveal>
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p>Grandes ideias começam com a curiosidade de <span>tentar.</span></p>
+        <span class="quote-credit">— meu jeito de aprender</span>
+      </section>
+
+      <section class="section-shell section-block" id="sobre" aria-labelledby="about-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow">01 / um pouco sobre mim</p>
+            <h2 id="about-title">Sobre <span>mim</span></h2>
+          </div>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-copy panel" data-reveal>
+            <p class="panel-label"><span class="accent">const</span> quemSouEu = {</p>
+            <p>
+              Sou estudante de <strong>Engenharia de Software na PUCPR</strong> e gosto de criar
+              experiências interativas para a web. Tenho explorado tecnologias de front-end e
+              programação, sempre com vontade de aprender algo novo.
+            </p>
+            <p>
+              A organização, a proatividade e o trabalho em equipe fazem parte do meu jeito de
+              construir. Quero crescer na área de desenvolvimento e transformar desafios em
+              soluções úteis.
+            </p>
+            <p class="panel-label closing-brace">};</p>
+          </div>
+          <div class="about-facts" data-reveal>
+            <article class="fact-card">
+              <span class="fact-icon" aria-hidden="true">⌘</span>
+              <div><h3>Em formação</h3><p>4º período de Engenharia de Software · PUCPR</p></div>
+            </article>
+            <article class="fact-card">
+              <span class="fact-icon" aria-hidden="true">⌖</span>
+              <div><h3>De Pinhais, Paraná</h3><p>Jardim Amélia · Região Metropolitana de Curitiba</p></div>
+            </article>
+            <article class="fact-card">
+              <span class="fact-icon" aria-hidden="true">✳</span>
+              <div><h3>Movido por curiosidade</h3><p>Aplicações interativas, dashboards e novas tecnologias</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-block" id="competencias" aria-labelledby="skills-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow">02 / ferramentas que uso</p>
+            <h2 id="skills-title">Minhas <span>competências</span></h2>
+          </div>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-panel panel" data-reveal>
+            <span class="skill-index">01</span>
+            <h3>Desenvolvimento web</h3>
+            <p>Interfaces e experiências para a web.</p>
+            <ul class="tag-list" aria-label="Tecnologias web">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+            </ul>
+          </article>
+          <article class="skill-panel panel" data-reveal>
+            <span class="skill-index">02</span>
+            <h3>Programação & dados</h3>
+            <p>Prática com diferentes linguagens e SQL.</p>
+            <ul class="tag-list" aria-label="Linguagens e banco de dados">
+              <li>Java</li><li>SQL</li><li>PHP</li><li>Python</li>
+            </ul>
+          </article>
+          <article class="skill-panel panel" data-reveal>
+            <span class="skill-index">03</span>
+            <h3>Ferramentas & colaboração</h3>
+            <p>Versionamento, organização e trabalho em equipe.</p>
+            <ul class="tag-list" aria-label="Ferramentas e habilidades">
+              <li>Git</li><li>GitHub</li><li>Linux</li><li>Equipe</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-block" id="conquistas" aria-labelledby="awards-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow">03 / aprendizados que viraram conquistas</p>
+            <h2 id="awards-title">Destaques da <span>trajetória</span></h2>
+          </div>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="awards-grid">
+          <article class="award-card award-featured" data-reveal>
+            <span class="award-year">2022 — 2024</span>
+            <span class="award-symbol" aria-hidden="true">✳</span>
+            <p class="award-category">Pensamento computacional · criação de sites</p>
+            <h3>Tricampeão do Concurso Agrinho</h3>
+            <p>Entre os primeiros colocados da Região Metropolitana Norte do Paraná nas três edições; em 2024, entre os 6 melhores do estado.</p>
+            <span class="award-footnote">3 edições · 3 conquistas</span>
+          </article>
+          <article class="award-card" data-reveal>
+            <span class="award-year">2024</span>
+            <span class="award-symbol" aria-hidden="true">◈</span>
+            <p class="award-category">Olimpíada Brasileira de Matemática</p>
+            <h3>Medalha de bronze</h3>
+            <p>Reconhecimento na OBMEP, a Olimpíada Brasileira de Matemática das Escolas Públicas.</p>
+            <span class="award-footnote">Raciocínio em prática</span>
+          </article>
+          <article class="award-card" data-reveal>
+            <span class="award-year">Certificação</span>
+            <span class="award-symbol" aria-hidden="true">&lt;/&gt;</span>
+            <p class="award-category">JavaScript · TOFAS</p>
+            <h3>Aprovado nos níveis 1, 2 e 3</h3>
+            <p>Certificações em JavaScript pelo Test of Fundamental Academic Skills.</p>
+            <span class="award-footnote">HTML e CSS avançado · JavaScript intermediário</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contact-title">
+        <div class="section-shell contact-inner" data-reveal>
+          <div>
+            <p class="eyebrow">04 / seu próximo projeto começa aqui</p>
+            <h2 id="contact-title">Vamos criar algo<br /><span>interessante?</span></h2>
+            <p class="contact-description">Estou aberto a oportunidades na área de desenvolvimento e a boas conversas sobre tecnologia.</p>
+          </div>
+          <div class="contact-card">
+            <span class="contact-card-label">Entre em contato</span>
+            <a class="contact-email" href="mailto:emanuel.henrique.m.silva@gmail.com">emanuel.henrique.m.silva@gmail.com <span aria-hidden="true">↗</span></a>
+            <div class="contact-links">
+              <a href="https://github.com/emanuelhmarcineksilva" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/emanuel-henrique-m-silva/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a href="tel:+5541984460833">Telefone <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="logo footer-logo" href="#inicio"><span class="logo-mark" aria-hidden="true">&lt;/&gt;</span><span>Emanuel</span></a>
+      <p>Emanuel <span aria-label="carinho">Dev</span> · <span id="current-year">2025</span></p>
+      <a class="back-to-top" href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
