@@ -6,8 +6,8 @@
   --border: #454752;
   --text: #f1f0f5;
   --muted: #a5a5b1;
-  --accent: #d17ae8;
-  --accent-soft: #a85dc2;
+  --accent: #91d5a1;
+  --accent-soft: #6fb77e;
   --mono: "DM Mono", monospace;
   --sans: "Inter", sans-serif;
   font-family: var(--sans);
@@ -24,7 +24,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    radial-gradient(ellipse at 76% 9%, rgb(113 65 129 / 10%), transparent 28rem),
+    radial-gradient(ellipse at 76% 9%, rgb(96 150 107 / 10%), transparent 28rem),
     var(--background);
   color: var(--text);
 }
@@ -227,7 +227,7 @@ p {
 }
 
 .button-primary:hover {
-  background: #df96ef;
+  background: #a8e6b4;
 }
 
 .text-link {
@@ -284,7 +284,7 @@ p {
   position: absolute;
   width: 290px;
   height: 290px;
-  border: 1px solid rgb(209 122 232 / 26%);
+  border: 1px solid rgb(145 213 161 / 26%);
   border-radius: 50%;
 }
 
@@ -310,9 +310,9 @@ p {
   padding: 18px;
   border: 1px solid #5d5866;
   background:
-    linear-gradient(145deg, rgb(209 122 232 / 12%), transparent 45%),
+    linear-gradient(145deg, rgb(145 213 161 / 12%), transparent 45%),
     linear-gradient(0deg, rgb(17 18 23 / 75%), rgb(38 40 48 / 80%));
-  box-shadow: 20px 22px 0 -14px rgb(209 122 232 / 75%), 0 20px 80px rgb(0 0 0 / 26%);
+  box-shadow: 20px 22px 0 -14px rgb(145 213 161 / 75%), 0 20px 80px rgb(0 0 0 / 26%);
   transform: rotate(-5deg);
 }
 
@@ -335,7 +335,7 @@ p {
   font-weight: 800;
   letter-spacing: -0.13em;
   line-height: 1;
-  text-shadow: 8px 8px 0 rgb(209 122 232 / 18%);
+  text-shadow: 8px 8px 0 rgb(145 213 161 / 18%);
 }
 
 .monogram span {
@@ -564,7 +564,7 @@ p {
   height: 35px;
   flex: 0 0 auto;
   place-items: center;
-  border: 1px solid rgb(209 122 232 / 38%);
+  border: 1px solid rgb(145 213 161 / 38%);
   color: var(--accent);
   font-size: 16px;
 }
@@ -646,7 +646,7 @@ p {
   padding: 22px;
   border: 1px solid var(--border);
   background:
-    radial-gradient(ellipse at top right, rgb(209 122 232 / 9%), transparent 50%),
+    radial-gradient(ellipse at top right, rgb(145 213 161 / 9%), transparent 50%),
     var(--surface);
   transition: border-color 180ms ease, transform 180ms ease;
 }
@@ -668,7 +668,7 @@ p {
   height: 42px;
   place-items: center;
   margin-top: 24px;
-  border: 1px solid rgb(209 122 232 / 35%);
+  border: 1px solid rgb(145 213 161 / 35%);
   color: var(--accent);
   font-family: var(--mono);
   font-size: 17px;
@@ -710,7 +710,7 @@ p {
   margin-top: 120px;
   border-block: 1px solid rgb(255 255 255 / 6%);
   background:
-    radial-gradient(ellipse at 82% 45%, rgb(168 93 194 / 12%), transparent 33rem),
+    radial-gradient(ellipse at 82% 45%, rgb(111 183 126 / 12%), transparent 33rem),
     #23242b;
 }
 
